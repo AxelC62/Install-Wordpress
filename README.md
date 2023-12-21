@@ -1,1 +1,2 @@
-# Install-Wordpress
+Script permettant d'installer wordpress et de le configurer sans vous soucier de quoi que ce soit. Vous aurez juste à mettre le nom de votre base de données, votre non d'utilisateur et votre mot de passe que vous souhaitez.
+Pour exécuter le script sur un serveur bien faire: chmod +x wordpress.sh ce qui va donner les droits d'exécution du script. Et pour le lancer vous fairez la commande ./wordpress.sh et le programme se lancera. Toutefois veillez bien que vous soyez en root sur le serveur sinon le script ne fonctionera pas
