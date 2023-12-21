@@ -24,8 +24,6 @@ cd /var/www/html
 mv wordpress/* /var/www/html/
 rm wordpress/ -Rf
 chown -R www-data:www-data /var/www/html/
-#sudo find /var/www/html/ -type f -exec chmod 644 {}\;
-#sudo find /var/www/html/ -type d -exec chmod 755 {}\;
 systemctl restart apache2
 
 
